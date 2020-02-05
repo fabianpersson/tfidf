@@ -20,11 +20,8 @@ public class CliApi {
     public void start(BufferedReader reader) throws IOException {
         System.out.println(helpMessage + " to get started");
 
-        String line = "";
-        while (!line.equalsIgnoreCase("quit")) {
-
+        while (true) {
             String userInput = reader.readLine();
-
             Response res;
 
             if (userInput.startsWith(Search.COMMAND_IDENTIFIER)) {
@@ -34,13 +31,11 @@ public class CliApi {
                 Put put = new Put(index);
                 res = put.request(userInput);
             } else {
-
                 res = new Response(helpMessage, StatusCode.FAILURE);
             }
-
             System.out.println(res.status);
             System.out.println(res.msg);
-        };
+        }
 
     }
 }
