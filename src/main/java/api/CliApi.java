@@ -1,10 +1,12 @@
-package api.cli;
+package api;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 
 import api.Response;
 import api.StatusCode;
+import api.cli.Put;
+import api.cli.Search;
 import index.Index;
 
 public class CliApi {

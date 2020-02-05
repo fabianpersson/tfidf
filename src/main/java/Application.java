@@ -1,5 +1,5 @@
 import index.Index;
-import api.cli.CliApi;
+import api.CliApi;
 
 import java.io.BufferedReader;
 import java.io.IOException;
