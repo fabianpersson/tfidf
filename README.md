@@ -2,9 +2,9 @@
 
 
 ### Compile Application.java 
-###### To add new documents, type put:
+##### To add new documents, type put:
 ###### - "this is a document", "this is another document" 
 
 
-###### To search, run :
-###### "search query_word" 
+##### To search, run :
+###### - "search query_word" 
