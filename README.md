@@ -1,7 +1,7 @@
 # tfidf
 
 
-### Compile Application.java 
+#### Compile Application.java and run the executable
 ##### To add new documents, type:
 ###### - put "this is a document", "this is another document" 
 
