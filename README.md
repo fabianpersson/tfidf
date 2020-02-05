@@ -2,5 +2,5 @@
 
 
 ### Compile Application.java 
-###### run "put <document>, <document>" to add new documents
-###### To search, run "search <query>" 
+###### To add new documents, type put "this is a document", "this is another document" 
+###### To search, run "search query_word" 
